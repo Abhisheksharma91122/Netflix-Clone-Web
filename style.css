@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+main{
+    height: 100vh;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: radial-gradient(50% 100% at 50% 0%, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 1) 100%);
@@ -107,7 +109,8 @@ p.start {
     border: 1px solid rgba(255, 255, 255, 0.6);
     transition: all 0.3s ease;
 }
-.navbutton :nth-child(2){
+
+.navbutton :nth-child(2) {
     background: #fff;
     color: black;
     padding: 4px 15px;
@@ -116,4 +119,126 @@ p.start {
     font-size: 1.2rem;
     border: 1px solid rgba(255, 255, 255, 0.6);
     transition: all 0.3s ease;
+}
+
+.heroemail {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.heroemail h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    max-width: 40vw;
+    gap: 10px;
+    justify-content: center;
+}
+
+.email button {
+    padding: 11px 36px;
+    border-style: none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.enteremail {
+    padding: 15px 160px 15px 10px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.562);
+    color: white;
+}
+.email button:hover{
+    background-color:rgb(196, 26, 26) ;
+}
+.email div{
+    height: 30.4px;
+}
+
+.title h2{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 80px;
+}
+.herofirstrow{
+    width: 80vw;
+    margin: auto;
+}
+
+.herofirstrow li{
+    height: 250px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li .btn{
+    height:100%;
+    width: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    aspect-ratio: 16 / 9;
+}
+.herofirstrow button:hover{
+    height: 260px;
+    width: 190px;
+}
+.herofirstrow ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+.heroelement li a{
+    height: 250px;
+    border-radius: 12px;
+}
+.herofirstrow .btn1{
+    background-image: url("images/AAAABUl-M1nn4uvT21kBv5aAh-QoP2s0PcL3UUcXQj9KmtaDtGr6PCATQ7PQQJqktUF-KkjTJvtoktddyYH_id9IA8ivP8ep-x3SZ7Ri.webp");
+}
+.herofirstrow .btn2{
+    background-image: url("images/AAAABSfXLinHk6dDZHmD3B20xMcR6i4xYKJtGfInetLAAuzdatro-FDmWjHY0caBH9CNwQ1I2vh10t3sopJNtbxHnbkY54_pO2-hVhVDMFQPlTX1nFK0DV1OhoWOvl_cKfE0Z_NWGg.webp");
+}
+.heroelement .btn3{
+    background-image: url("images/3rdimg.webp");
+}
+.heroelement .btn4{
+    background-image: url("images/4thimg.webp");
+}
+.heroelement .btn5{
+background-image: url("images/5thimg.webp");
+}
+.heroelement .btn6{
+    background-image: url("images/6thimg.webp");
+}
+.heroelement .btn7{
+    background-image: url("images/7thimg.webp");
 }
