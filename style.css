@@ -341,7 +341,6 @@ li .btn {
 }
 
 .freq {
-    height: 100vh;
     width: 80vw;
     margin: auto;
     margin-bottom: 40px;
@@ -371,6 +370,93 @@ li .btn {
 .last{
     width: 80vw;
     margin: auto;
-    height: 100vh;
-    
+    text-align: center;
+}
+.last button{
+    background-color:rgb(229 9 20);
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: 650;
+    color: white;
+    border-radius: 25px;
+    border-style: none;
+    text-decoration: none;
+}
+.last button:hover{
+    background-color: #c11119;
+}
+.last p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+footer{
+    width: 80vw;
+    margin: auto;
+    height: 40vh;
+}
+.questions {
+    margin-top: 36px;
+}
+.questions span{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer{
+    font-size: 14px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer .footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:1000px) {
+    .email {
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        width: 80vw;
+    }
+    nav img {
+        width: 84px;
+    }
+    .navbutton :nth-child(1) {
+        padding: 2px 14px;
+        font-size: 16px;
+    }
+    .navbutton :nth-child(2) {
+        padding: 0px 10px;
+        font-size: 17px;
+    }
+    .videosection {
+        width: 100vw;
+        margin: 0px;
+    }
+    .videocontain h1 {
+        font-size: clamp(1rem, 5vw, 4rem);
+    }
+    p.start{
+        font-size: 1rem;
+    }
+    .email button {
+        padding: 3px 12px;
+        font-size: 17px;
+        font-weight: 600;
+        gap: 0px;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-item{
+        margin-bottom: 20px;
+    }
 }
